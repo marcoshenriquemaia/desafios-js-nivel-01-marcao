@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100svw;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#animals-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-height: 60svh;
+  overflow: auto;
+  width: fit-content;
+  padding: 20px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  box-shadow: 3px 3px 7px #0000004D;
+  width: fit-content;
+}
+
+.card-avatar {
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.card-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-info-text {
+  font-size: 20px;
+  font-weight: 700;
+}
